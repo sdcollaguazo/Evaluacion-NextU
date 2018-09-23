@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="author" content="Andres Morales">
+	<meta name="description" content="Hoja de vida">
+	<title>Hoja de vida</title>
+</head>
+<body>
+    <header>
+        <h1>Hoja de Vida</h1>
+        <h2>Steven Jobs</h2>
+        <h3>Datos Personales</h3>
+        <ul>
+            <li> <h3>Nombres : <em> Steven Paul </em> </h3>   </li>
+            <li> <h3>Lugar de nacimiento: <em> California </em> </h3> </li>
+            <li> <h3>Fecha de nacimiento: <em> 1955 </em> </h3>  </li>
+        </ul>
+        <table>
+            <tr>
+                <td><a href="../index.html">Inicio</a> |</td>
+                <td><a href="../html/educacion.html">Educación</a> | </td>
+                <td><a href="../html/experiencia.html">Experiencia</a> </td>
+            </tr>
+        </table>
+
+    </header>
+
+    <div>
+        <h2>Educación</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1965</td>
+                    <td>Escuela Primaria Monta Loma </td>
+                    <td>California</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td> 1968 </td>
+                    <td> Preparatoria Homestead</td>
+                    <td> California</td>
+                    <td> Si</td>
+                </tr>
+                <tr>
+                    <td> 1972</td>
+                    <td> Reed College</td>
+                    <td> California</td>
+                    <td> Si</td>
+                </tr>
+            </tbody>            
+        </table>
+    </div>
+
+    <div>
+      
+        <form>
+            <legend><h2> Agregar Estudios </h2></legend>
+            <p>
+                <label for="recomend">Años:</label>
+                <br />
+                <select name="recomend">
+                    <option value="1">2019</option>
+                    <option value="2">2018</option>
+                    <option value="3">2017</option>
+                </select>
+            </p>
+            <p>
+                <label for="institucion">Institución: </label>
+                <br />
+                <input type="text" placeholder="Ej : Universidad" id="institucion" required autofocus>
+            </p>
+            <p>
+                <label for="lugar_text">Lugar:</label>
+                <br>
+                <textarea name="lugar_txt" rows="1" cols="40" id="lugar_texto"></textarea>
+            </p>
+            <p>
+                <label for="culmino">¿Culminó?:</label>
+                <br>
+                <input type="checkbox" name="culmino" >
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <table width="100%">
+            <tr>
+                <td>Correo Electrónico:<em> <a href="mailto:stevejobs@hotmail.com">stevejobs@hotmail.com</a></em></td>
+                <td>Teléfono: <em> <a href="callto:+54720816526">+547 2081-6526</a></em></td>
+                <td>Facebook: <em><a href="https://www.facebook.com/stevejobs.co.uk/"> Steve Jobs Oficial</a></em></td>
+                <td>Twitter: <em><a href="https://twitter.com/stevejobs_es?lang=es"> Steve Jobs Tweet</a></em></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
